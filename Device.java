@@ -10,23 +10,19 @@ public class Device {
     // OVERLOAD CONSTRUCTOR
 
     // GETTERS
-    public int getBattery() {
+  /*   public int getBattery() {
         return this.battery;
-    }
+    } */
     // SETTERS
-    /*
-     * public int setBattery(int battery){ // int si la fonction 'return'
-     * return this.battery = battery;
-     * }
-     */
+  
 
-    public void setBattery(int battery) { // 'void' car la methode ne retourn rien
+   /*  public void setBattery(int battery) { // 'void' car la methode ne retourn rien
         this.battery = battery;
-    }
+    } */
 
     // OTHER METHOD
     public int displayBattery() {
-        return this.getBattery();
+        return this.battery;
     }
 
 }

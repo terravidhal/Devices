@@ -8,7 +8,7 @@ public class Phone extends Device {
     // OTHER METHOD
     public String call() {
         super.battery -= 5;
-        return "phone call .... remaining battery " + super.getBattery();
+        return "phone call .... remaining battery " + super.displayBattery();
     }
 
     public String playGame() {
@@ -17,13 +17,13 @@ public class Phone extends Device {
             return "battery remainning 25 % can't play game!!";
         } else {
             super.battery -= 20;
-            return "You play a game..... remaining battery " + super.getBattery();
+            return "You play a game..... remaining battery " + super.displayBattery();
         }
     }
 
     public String charge() {
         super.battery += 50;
-        return "phone charge .... remaining battery " + super.getBattery();
+        return "phone charge .... remaining battery " + super.displayBattery();
     }
 
     // NINJAS BONUS 1:
