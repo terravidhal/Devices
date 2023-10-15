@@ -1,4 +1,4 @@
-public class PhoneTest {
+public class DeviceTest {
     public static void main(String[] args) {
 
         Phone iphone = new Phone();
